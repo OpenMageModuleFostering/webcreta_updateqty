@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+        <Webcreta_Updateqty>
+            <version>0.1.0</version>
+        </Webcreta_Updateqty>
+    </modules>
+    <admin>
+        <routers>
+            <Webcreta_Updateqty>
+                <use>admin</use>
+                <args>
+                    <module before="Mage_Adminhtml">Webcreta_Updateqty</module>
+                    <frontName>updateqty</frontName>
+                </args>
+            </Webcreta_Updateqty>
+        </routers>
+    </admin>
+	<adminhtml>
+        <menu>
+            <tutorial_menu translate="title" module="updateqty">
+                <title>Update Stock</title> 
+                <sort_order>9999</sort_order>
+                <children>
+                    <first_page module="updateqty">
+                        <title>Update Mass Qty</title> 
+                        <action>updateqty/adminhtml_updateqty</action>
+                    </first_page>
+                </children>
+            </tutorial_menu>            
+        </menu> 
+    </adminhtml>
+	<global>
+		<helpers>
+			<updateqty>
+				<class>Webcreta_Updateqty_Helper</class>
+			</updateqty>
+		</helpers>
+		 <blocks>
+				<updateqty>
+					<class>Webcreta_Updateqty_Block</class>
+				</updateqty>
+		</blocks>
+	</global>   
+</config>

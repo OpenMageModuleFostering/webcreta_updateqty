@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Webcreta_Updateqty</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension will help you to update all product's </summary>
+    <description>Using this extension First you will have to export sku and quantity using "Export" options in our module. After that you can make changes of quantity and import that file then click on "Start update" button. In this way you can eaisly update all products quantity at once. </description>
+    <notes>Fixed minor bugs</notes>
+    <authors><author><name>WebCreta</name><user>WebCreta</user><email>webcreta@gmail.com</email></author></authors>
+    <date>2017-03-11</date>
+    <time>06:58:47</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Webcreta_Updateqty.xml" hash="7b89fa90de262afd0b0c873cd26e112a"/></dir></target><target name="magelocal"><dir name="Webcreta"><dir name="Updateqty"><dir name="Block"><dir name="Adminhtml"><file name="Adminform.php" hash="c4e5e47e3cbbe40ce2e601c0887fa4dc"/><file name="Updateqty.php" hash="3c66424d50fe6549db055d52afbd8d79"/></dir></dir><dir name="Helper"><file name="Data.php" hash="74ecfde262542b30be516c9b4398c811"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="UpdateqtyController.php" hash="bea7044a3ebbbc254683e30c9da36557"/></dir></dir><dir name="etc"><file name="config.xml" hash="c8b9bf84a971890bb0c41ee93f54fd4b"/></dir></dir></dir></target><target name="mage"><dir name="import"><file name="lt.csv" hash="369ee001b4baffb442d4ad34505e0a06"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="webcreta"><file name="updateqty.phtml" hash="50879a450164a1ad5ac302e9d640914b"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

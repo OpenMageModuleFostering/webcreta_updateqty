@@ -1,0 +1,7 @@
+<div>
+<form action="<?php echo $this->getFormAction(); ?>" method="POST" enctype="multipart/form-data">
+<input type="hidden" name="form_key" value="<?php echo Mage::getSingleton('core/session')->getFormKey() ?>" />
+<input type="file" id="name" name="name" />
+<input type="submit" id="submit" name="submit" value="Import CSV" class="save form-button"/>
+</form>
+</div>
