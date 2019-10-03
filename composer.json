@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Webcreta_Updateqty",
+    "name": "OpenMageModuleFostering\/Webcreta_Updateqty",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "This extension will help you to update all product's ",
     "authors": [
-    {
-        "name": "WebCreta",
-        "email": "webcreta@gmail.com"
-    }
-],
+        {
+            "name": "WebCreta",
+            "email": "webcreta@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
